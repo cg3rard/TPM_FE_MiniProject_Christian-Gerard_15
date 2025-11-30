@@ -1,0 +1,68 @@
+body {
+  background-image: url(images/vivid-blurred-colorful-wallpaper-background.jpg);
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+a {
+  text-decoration: none;
+}
+.nav-btn {
+  background: none;
+  border: 1.5px solid #212121;
+  width: 136px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+  position: absolute;
+  top: 34px;
+  right: 60px;
+}
+
+.nav-isi {
+  width: 41px;
+  height: 23px;
+  top: 47px;
+  left: 1293px;
+  opacity: 1;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 22.53px;
+  letter-spacing: 0.7px;
+}
+
+.container-wrapper {
+  display: flex;
+  gap: 0;
+  position: absolute;
+  top: 119px;
+  left: 140px;
+  right: 139px;
+  height: 684px;
+}
+.container-a {
+  width: 561px;
+  height: 100%;
+  top: 119px;
+  left: 140px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  opacity: 1;
+}
+.container-a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-b {
+  flex: 1;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+}

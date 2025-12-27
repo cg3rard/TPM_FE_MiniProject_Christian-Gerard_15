@@ -7,18 +7,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+Antique&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>BNCC</title>
   </head>
-  
   <body>
-    <div class="nav-btn">
-      <button class="nav-isi">LOGIN</button>
-    </div>
-    <div class="container-a">
-      <img src="images/Rectangle14.png" alt="Foto Display" />
-    </div>
-    <div class="container-b">Halo</div>
+    <body>
+      <nav>
+        <button class="nav-btn"><a href="login.html">LOGIN</a></button>
+      </nav>
+
+      <main class="page">
+        <section class="card">
+          <div class="card-left">
+            <img src="images/Rectangle14.png" alt="Shopping cart" />
+          </div>
+
+          <div class="card-right">
+            <h2>Registration</h2>
+
+            <form>
+              <input type="text" placeholder="First Name" />
+              <input type="email" placeholder="Email Address" />
+              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Confirm Password" />
+              <label class="checkbox">
+                <input type="checkbox" />
+                I agree to the Terms & Privacy Policy
+              </label>
+
+              <button class="Submit">CREATE AN ACCOUNT</button>
+            
+              <section>
+                <div class="social-login">
+                  <span class="or">OR</span>
+
+                  <div class="social-icons">
+                    <div class="icon google">
+                      <img src="images/google.png" alt="Google" />
+                    </div>
+                    <div class="icon apple">
+                      <img src="images/apple.png" alt="Apple" />
+                    </div>
+                    <div class="icon facebook">
+                      <img src="images/facebook.png" alt="Facebook" />
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </form>
+          </div>
+        </section>
+      </main>
+    </body>
   </body>
 </html>
